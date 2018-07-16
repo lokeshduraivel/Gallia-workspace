@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit{
    // }else {
    // 	alert("Invalid credentials.")
    // }
-   this.router.navigate(['dashboard']);
+   this.router.navigate(['createProject']);
   }
   createUser(){
     this.router.navigate(['createUser']);

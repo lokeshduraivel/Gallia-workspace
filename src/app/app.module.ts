@@ -7,6 +7,8 @@ import { AppRoutingModule } from './/app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { CreateProjectComponent } from './create-project/create-project.component';
+import { ProjectPageComponent } from './project-page/project-page.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     DashboardComponent,
     LoginComponent,
     ForgotPasswordComponent,
-    SignUpComponent
+    SignUpComponent,
+    CreateProjectComponent,
+    ProjectPageComponent
     
   ],
   imports: [
